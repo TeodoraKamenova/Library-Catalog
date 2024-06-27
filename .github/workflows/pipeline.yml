@@ -25,4 +25,4 @@ jobs:
     - name: Start the application
       run: npm run start &
     - name: Execute the UI tests
-      run: npx playwright test tests/ui.test.js
+      run: npx playwright test
