@@ -32,4 +32,4 @@ jobs:
     - name: Start server
       run: node server/server.js &
     - name: Execute the UI tests
-      run: npx playwright test
+      run: npx playwright test tests/ui.test.js
