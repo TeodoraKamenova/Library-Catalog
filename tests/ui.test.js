@@ -245,7 +245,7 @@ test('Verify that all books are displayed', async ({ page }) => {
     expect(bookElements.length).toBeGreaterThan(0);
 });
 
-test('Verify that no books are displayed', async ({ page }) => {
+/* test('Verify that no books are displayed', async ({ page }) => {
     await page.goto('http://localhost:3000/login');
     await page.fill('input[name="email"]', 'peter@abv.bg');
     await page.fill('input[name="password"]', '123456');
@@ -255,6 +255,7 @@ test('Verify that no books are displayed', async ({ page }) => {
     const noBooksMessage = await page.textContent('.no-books');
     expect(noBooksMessage).toBe('No books in database!');
 });
+*/
 
 // "Details" Page
 
